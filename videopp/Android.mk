@@ -63,7 +63,7 @@ LOCAL_CFLAGS                    += -Wno-error
 LOCAL_C_INCLUDES                += $(libmm-vidpp-inc)
 
 LOCAL_PRELINK_MODULE    := false
-LOCAL_SHARED_LIBRARIES  := liblog libutils libbinder libcutils libdl libc
+LOCAL_SHARED_LIBRARIES  := liblog libutils libbinder libcutils libdl libc libmedia_omx
 
 LOCAL_SRC_FILES         += src/omx_vdpp.cpp
 
